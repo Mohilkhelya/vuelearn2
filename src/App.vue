@@ -29,6 +29,8 @@
    <LifeCycleC />
    <br>
    <RTemplateRef />
+   <br><br>
+   <PropsPerson />
 </div>
 </template>
 
@@ -51,6 +53,7 @@ import ProvideInject from './components/ProvideInject.vue'
 import LifeCycleO from './components/LifeCycleO.vue'
 import LifeCycleC from './components/LifeCycleC.vue'
 import RTemplateRef from './components/RTemplateRef.vue'
+import PropsPerson from './components/PropsPerson.vue'
 
 
    
@@ -74,6 +77,7 @@ export default {
     LifeCycleO,
     LifeCycleC,
     RTemplateRef,
+    PropsPerson,
   }
 }
 </script>
